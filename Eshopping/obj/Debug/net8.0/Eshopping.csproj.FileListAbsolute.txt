@@ -134,3 +134,4 @@ D:\Eshopping\Eshopping\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.
 D:\Eshopping\Eshopping\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Eshopping\Eshopping\obj\Debug\net8.0\Eshopping.csproj.AssemblyReference.cache
 D:\Eshopping\Eshopping\obj\Debug\net8.0\Eshopping.csproj.Up2Date
+D:\Eshopping\Eshopping\obj\Debug\net8.0\Eshopping.sourcelink.json
