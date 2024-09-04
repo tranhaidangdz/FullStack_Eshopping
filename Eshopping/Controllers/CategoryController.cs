@@ -7,7 +7,7 @@ namespace Eshopping.Controllers
 {
     public class CategoryController:Controller
     {
-        public readonly DataContext _dataContext;
+        private readonly DataContext _dataContext;
         public CategoryController(DataContext context)
         {
             _dataContext = context;
