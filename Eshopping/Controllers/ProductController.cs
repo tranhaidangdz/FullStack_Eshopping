@@ -16,10 +16,13 @@ namespace Eshopping.Controllers
 		}
 		public async Task<IActionResult> Details(int Id)
 		{
-			if(Id ==null)
-				return RedirectToAction("Index");
-
 			var productsById = _dataContext.Products.Where(p => p.Id == Id).FirstOrDefault();
+			// Nếu không tìm thấy sản phẩm, chuyển hướng về trang Index
+			if (productsById == null)
+			{
+				return RedirectToAction("Index");
+			}
+			// Trả về view với sản phẩm đã tìm thấy
 			return View(productsById);
 		}
 	}

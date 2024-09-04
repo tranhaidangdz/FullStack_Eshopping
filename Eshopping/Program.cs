@@ -10,9 +10,19 @@ builder.Services.AddDbContext<DataContext>(options =>
 );
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//dki session:
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession(option =>
+{
+    option.IdleTimeout = TimeSpan.FromMinutes(30);
+    option.Cookie.IsEssential = true;
+}
+);
 
 var app = builder.Build();
 
+app.UseSession();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
