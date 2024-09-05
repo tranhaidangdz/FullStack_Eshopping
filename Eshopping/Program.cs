@@ -1,4 +1,4 @@
-using Eshopping.Repository;
+﻿using Eshopping.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,9 +38,15 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+//map này của FE: 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+//Đki map này cho backend: ten map là areas, mặc định "controller=Product"
+app.MapControllerRoute(
+    name: "Areas",
+    pattern: "{area:exists}/{controller=Product}/{action=Index}/{id?}");
+
 //seeding data:tao du lieu trong sql server
 var context=app.Services.CreateScope().ServiceProvider.GetRequiredService<DataContext>();
 SeedData.SeedingData(context);

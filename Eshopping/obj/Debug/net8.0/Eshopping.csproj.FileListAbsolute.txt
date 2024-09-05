@@ -136,3 +136,4 @@ D:\Eshopping\Eshopping\obj\Debug\net8.0\Eshopping.csproj.AssemblyReference.cache
 D:\Eshopping\Eshopping\obj\Debug\net8.0\Eshopping.csproj.Up2Date
 D:\Eshopping\Eshopping\obj\Debug\net8.0\Eshopping.sourcelink.json
 D:\Eshopping\Eshopping\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Eshopping\Eshopping\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
