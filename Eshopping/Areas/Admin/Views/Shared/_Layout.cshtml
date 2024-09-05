@@ -126,6 +126,8 @@
 	<script src="~/js/price-range.js"></script>
 	<script src="~/js/jquery.prettyPhoto.js"></script>
 	<script src="~/js/main.js"></script>
+	@* ta dùng await: bất đồng bộ: khi ta khởi chạy 1 dự án nó sẽ chạy các file JS ở trên trc, còn đoạn code JS của các trang sẽ chỉ chạy khi ta mở đến trang đó  *@
+	@await RenderSectionAsync("Scripts", required: false);
 </body>
 
 </html>

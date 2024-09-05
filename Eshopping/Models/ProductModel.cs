@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Eshopping.Repository.Validation;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Eshopping.Models
 {
@@ -19,5 +21,8 @@ namespace Eshopping.Models
         public CategoryModel Category { get; set; }
         public BrandModel Brand { get; set; }
         public string Image {  get; set; }
+        [NotMapped]
+        [FileExtension]
+        public IFormFile ImageUpload { get; set; }  
     }
 }
