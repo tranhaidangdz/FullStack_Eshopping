@@ -37,15 +37,15 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
-//map này của FE: 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
 //Đki map này cho backend: ten map là areas, mặc định "controller=Product"
 app.MapControllerRoute(
     name: "Areas",
     pattern: "{area:exists}/{controller=Product}/{action=Index}/{id?}");
+//ta sẽ để trang backend lên trên: do mặc định nó chạy frontend đầu tiên , mà ta muốn backend chạy trc 
+//map này của FE: 
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 //seeding data:tao du lieu trong sql server
 var context=app.Services.CreateScope().ServiceProvider.GetRequiredService<DataContext>();

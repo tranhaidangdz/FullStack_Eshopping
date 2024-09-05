@@ -1,5 +1,6 @@
 ﻿using Eshopping.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace Eshopping.Areas.Admin.Controllers
@@ -16,6 +17,12 @@ namespace Eshopping.Areas.Admin.Controllers
 		{
 			return View(await _dataContext.Products.OrderByDescending(P=>P.Id).Include(p=>p.Category).Include(p => p.Brand).ToListAsync() );
 
+		}
+		public IActionResult Create()
+		{
+			ViewBag.Categories = new SelectList(_dataContext.Categories,"Id","Name");
+			ViewBag.Brands = new SelectList(_dataContext.Brands,"Id","Name");
+			return View();
 		}
 	}
 }

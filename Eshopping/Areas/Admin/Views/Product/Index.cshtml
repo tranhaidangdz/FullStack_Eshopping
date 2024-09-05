@@ -2,7 +2,9 @@
 @{
     ViewData["title"] = "Product Listed";
 }
-<h3>list product </h3>
+<h4>List Product </h4>
+@* thêm sửa xóa sp: *@
+<a  asp-action="Create" asp-controller="Product">Add Product</a>
 <table class="table">
     <thead>
         <tr>
@@ -20,8 +22,8 @@
         @foreach (var item in Model)
         {
             <tr>
-                @* hiển thị sp từ csdl dưới dạng 1 bảng: sau này khi chèn sp vào csdl nó sẽ in ra thông  tin ở đây  *@
-                <th scope="row">1</th>
+                @* hiển thị sp từ csdl dưới dạng 1 bảng: sau này khi chèn thêm các sp vào csdl nó sẽ in ra thông  tin ở đây  *@
+                <th scope="row">@item.Id</th>
                 <td>@item.Name</td>
                 <td>@item.Description</td>
                 <td>@item.Price</td>
@@ -29,7 +31,10 @@
                 <td>@item.Slug</td>
                 <td>@item.Category.Name</td>
                 <td>@item.Brand.Name</td>
-             
+             <td>
+                    <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="Product" asp-route-Id="@item.Id">Edit</a>
+                    <a asp-action="Delete" class="btn btn-danger btn-sm" asp-controller="Product" asp-route-Id="@item.Id">Delete</a>
+             </td>
             </tr>
 
         }
