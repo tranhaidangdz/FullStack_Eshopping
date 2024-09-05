@@ -1,5 +1,6 @@
 ﻿using Eshopping.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Eshopping.Areas.Admin.Controllers
 {
@@ -11,10 +12,9 @@ namespace Eshopping.Areas.Admin.Controllers
 		{
 			_dataContext = context;
 		}
-		public IActionResult Index()
+		public async Task<IActionResult> Index()
 		{
-			//Nếu bạn muốn trả về một view từ vị trí cụ thể, bạn cũng có thể chỉ định đường dẫn view đầy đủ trong controller:
-			return View("/Areas/Admin/Views/Product/Index.cshtml");
+			return View(await _dataContext.Products.OrderByDescending(P=>P.Id).Include(p=>p.Category).Include(p => p.Brand).ToListAsync() );
 
 		}
 	}
