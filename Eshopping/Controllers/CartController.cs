@@ -47,6 +47,7 @@ namespace Eshopping.Controllers
 			//lưu trữ dữ liệu cart vào session:
 			HttpContext.Session.SetJson("Cart", cart);
 
+			TempData["success"] = "Add Item to cart Successfully!";
 			return Redirect(Request.Headers["Referer"].ToString());
 		}
 
@@ -73,7 +74,8 @@ namespace Eshopping.Controllers
 				HttpContext.Session.SetJson("Cart", cart);
 
 			}
-			return RedirectToAction("Index");
+			TempData["success"] = "Decrease Item quantity to cart Successfully!";
+            return RedirectToAction("Index");
 		}
 		//tuong tự khi ta nhấn asp-action="Increase":nút tăng sp 
 		public async Task<IActionResult> Increase(int Id)
@@ -81,7 +83,7 @@ namespace Eshopping.Controllers
 			List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
 			CartItemModel cartItem = cart.Where(c => c.ProductId == Id).FirstOrDefault();
 
-			if (cartItem.Quantity > 1)
+			if (cartItem.Quantity >= 1)
 			{
 				++cartItem.Quantity;  //nếu bấm vào nút có class decrease ta ktra số lg , nếu >1 thì tang  số lg sp đi 
 			}
@@ -99,7 +101,8 @@ namespace Eshopping.Controllers
 				HttpContext.Session.SetJson("Cart", cart);
 
 			}
-			return RedirectToAction("Index");
+            TempData["success"] = "Increase Item quantity to cart Successfully!" ;
+            return RedirectToAction("Index");
 		}
 
 		//ham remove san pham:
@@ -116,14 +119,17 @@ namespace Eshopping.Controllers
 				HttpContext.Session.SetJson("Cart", cart);
 
 			}
-			return RedirectToAction("Index");
+			TempData["success"] = "Remove Item of cart Successfully!" ;
+            return RedirectToAction("Index");
 
 		}
 		//hàm xóa toàn bộ giỏ hàng:
 		public async Task<IActionResult> ClearCart()
 		{
 			HttpContext.Session.Remove("Cart");
-			return RedirectToAction("Index");
+
+            TempData["success"] = "Clear all Item of cart Successfully!" ;
+            return RedirectToAction("Index");
 		}
 	}
 }
