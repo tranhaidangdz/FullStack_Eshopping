@@ -14,8 +14,10 @@ namespace Eshopping.Models
 
         [Required, MinLength(4, ErrorMessage = "Yêu cầu nhập Mô tả sản phẩm  ")]
         public string Description { get; set; }
-        [Required, MinLength(4, ErrorMessage = "Yêu cầu nhập giá sản phẩm  ")]
-       public decimal Price { get; set; }
+      
+        [Required(ErrorMessage = "Yêu cầu nhập giá sản phẩm")]
+        [Range(0.01, double.MaxValue, ErrorMessage = "Giá sản phẩm phải lớn hơn 0")]
+        public decimal Price { get; set; }
         public int BrandId { get; set; }
         public int CategoryId { get; set; }
         public CategoryModel Category { get; set; }

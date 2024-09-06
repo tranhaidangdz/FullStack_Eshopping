@@ -59,9 +59,12 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-@* ta se cài ckEDITOR4 để có thể chỉnh sửa cỡ chữ, kiểu chữ trong phần description(mô tả). Lưu ý cái này chỉ AD cho texarea thôi  *@
+@* ta se cài ckEDITOR4 để có thể chỉnh sửa cỡ chữ, kiểu chữ trong phần description(mô tả). 
+    giống như ta nhúng word vào trang web vậy, ng dùng có thể trang trí chữ trong phần description 
+Lưu ý cái này chỉ AD cho texarea thôi  *@
+
     <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
-<script>
-    CKEDITOR.replace('Description');
-</script>
+    <script>
+        CKEDITOR.replace('Description');
+    </script>
 }
