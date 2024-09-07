@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0/6fxRSTmpTVU38lO7cCsLwM0jjuLOSL0ryip9e4xmE=",
+  "Hash": "YNR+aIFikUIY4w2CpNsrYgNGYhJLiaiL+TedY103XxQ=",
   "Source": "Eshopping",
   "BasePath": "_content/Eshopping",
   "Mode": "Default",
@@ -2656,6 +2656,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\44586f9d-f244-4618-9b6e-046e662d1445_gallery4.jpg",
+      "SourceId": "Eshopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "BasePath": "_content/Eshopping",
+      "RelativePath": "media/products/44586f9d-f244-4618-9b6e-046e662d1445_gallery4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\44586f9d-f244-4618-9b6e-046e662d1445_gallery4.jpg"
+    },
+    {
+      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg",
+      "SourceId": "Eshopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "BasePath": "_content/Eshopping",
+      "RelativePath": "media/products/60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg"
     }
   ]
 }

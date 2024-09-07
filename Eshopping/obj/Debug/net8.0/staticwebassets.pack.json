@@ -553,6 +553,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\44586f9d-f244-4618-9b6e-046e662d1445_gallery4.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\44586f9d-f244-4618-9b6e-046e662d1445_gallery4.jpg"
+    },
+    {
+      "Id": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Eshopping.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

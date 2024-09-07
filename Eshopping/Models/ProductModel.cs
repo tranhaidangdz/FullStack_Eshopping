@@ -22,7 +22,7 @@ namespace Eshopping.Models
         public int CategoryId { get; set; }
         public CategoryModel Category { get; set; }
         public BrandModel Brand { get; set; }
-        public string Image {  get; set; }
+        public string Image { get; set; } = "noimage.jpg";
         [NotMapped]
         [FileExtension]
         public IFormFile ImageUpload { get; set; }  
