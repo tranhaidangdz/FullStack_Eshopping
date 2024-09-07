@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lWYkh07J6/c/DgwUkpQYC93mGboTcLnZwPart6/zVF4=",
+  "Hash": "tuJeWJ20e6WDJrP94vtr0HZl2RkZgn9btCZNRg9V0uY=",
   "Source": "Eshopping",
   "BasePath": "_content/Eshopping",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Eshopping.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\backend\\js\\site.js",
+      "SourceId": "Eshopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "BasePath": "_content/Eshopping",
+      "RelativePath": "backend/js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
     },
     {
       "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\css\\animate.css",
