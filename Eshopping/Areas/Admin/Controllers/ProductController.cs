@@ -12,7 +12,8 @@ namespace Eshopping.Areas.Admin.Controllers
 	public class ProductController:Controller
 	{
 		private readonly DataContext _dataContext;
-		private readonly IWebHostEnvironment _webHostEnvironment;
+
+		private readonly IWebHostEnvironment _webHostEnvironment; //IWebHostEnvironment: để load file ảnh thì phải có dòng này 
 		public ProductController(DataContext context,IWebHostEnvironment webHostEnvironment)
 		{
 			_dataContext = context;
