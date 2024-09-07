@@ -561,6 +561,10 @@
       "PackagePath": "staticwebassets\\media\\products\\60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg"
     },
     {
+      "Id": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\656a2a7d-4fae-4152-946a-3ab85f11853f_chị Hạnh.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\656a2a7d-4fae-4152-946a-3ab85f11853f_chị Hạnh.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Eshopping.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YNR+aIFikUIY4w2CpNsrYgNGYhJLiaiL+TedY103XxQ=",
+  "Hash": "vcQCpcqWCWY6euFgA5lfGAP58z+nfevdoQYFVZcdQ8c=",
   "Source": "Eshopping",
   "BasePath": "_content/Eshopping",
   "Mode": "Default",
@@ -2694,6 +2694,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\products\\60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg"
+    },
+    {
+      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\656a2a7d-4fae-4152-946a-3ab85f11853f_chị Hạnh.jpg",
+      "SourceId": "Eshopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "BasePath": "_content/Eshopping",
+      "RelativePath": "media/products/656a2a7d-4fae-4152-946a-3ab85f11853f_chị Hạnh.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\656a2a7d-4fae-4152-946a-3ab85f11853f_chị Hạnh.jpg"
     }
   ]
 }
