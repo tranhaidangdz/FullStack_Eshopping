@@ -276,3 +276,9 @@ D:\New folder\Eshopping\Eshopping\obj\Debug\net8.0\refint\Eshopping.dll
 D:\New folder\Eshopping\Eshopping\obj\Debug\net8.0\Eshopping.pdb
 D:\New folder\Eshopping\Eshopping\obj\Debug\net8.0\Eshopping.genruntimeconfig.cache
 D:\New folder\Eshopping\Eshopping\obj\Debug\net8.0\ref\Eshopping.dll
+D:\Eshopping\Eshopping\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Eshopping\Eshopping\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Eshopping\Eshopping\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Eshopping\Eshopping\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Eshopping\Eshopping\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Eshopping\Eshopping\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
