@@ -22,6 +22,9 @@ builder.Services.AddSession(option =>
 
 var app = builder.Build();
 
+//đường dẫn đễn trang 404 notfound : khi lỗi thường chrome sẽ hiển thị 1 trang mặc định, ta muốn khi lỗi nó sẽ đi đến trang báo lỗi do tra custom 
+app.UseStatusCodePagesWithRedirects("/Home/Error?statuscode={0}");
+
 app.UseSession();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

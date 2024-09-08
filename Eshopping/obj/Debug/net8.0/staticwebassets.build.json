@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BNlFKN8Yy0YLB914gKMqTPIpwuGCDdKNjdBLzEB4F/g=",
+  "Hash": "oGbsEBlQKap0AiYvVW5jXhqS4m5NPAONXAKBBkXEoig=",
   "Source": "Eshopping",
   "BasePath": "_content/Eshopping",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Eshopping.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\backend\\images\\download.png",
+      "SourceId": "Eshopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "BasePath": "_content/Eshopping",
+      "RelativePath": "backend/images/download.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\images\\download.png"
     },
     {
       "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\backend\\js\\site.js",

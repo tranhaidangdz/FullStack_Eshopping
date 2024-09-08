@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Eshopping.bundle.scp.css"
     },
     {
+      "Id": "D:\\Eshopping\\Eshopping\\wwwroot\\backend\\images\\download.png",
+      "PackagePath": "staticwebassets\\backend\\images\\download.png"
+    },
+    {
       "Id": "D:\\Eshopping\\Eshopping\\wwwroot\\backend\\js\\site.js",
       "PackagePath": "staticwebassets\\backend\\js\\site.js"
     },
