@@ -38,11 +38,21 @@ app.UseRouting();
 
 app.UseAuthorization();
 //Đki map này cho backend: ten map là areas, mặc định "controller=Product"
+//ta sẽ để trang backend lên trên: do mặc định nó chạy frontend đầu tiên , mà ta muốn backend chạy trc 
 app.MapControllerRoute(
     name: "Areas",
     pattern: "{area:exists}/{controller=Product}/{action=Index}/{id?}");
-//ta sẽ để trang backend lên trên: do mặc định nó chạy frontend đầu tiên , mà ta muốn backend chạy trc 
-//map này của FE: 
+//ta sẽ đki các map cho category,brand :khi click vào đó nó sẽ chuyển từ trang index mặc định sang các trang này 
+app.MapControllerRoute(
+    name: "category",
+    pattern: "/category/{Slug?}",
+    defaults: new {controller="Category",action="Index"});
+app.MapControllerRoute(
+    name: "brand",
+    pattern: "/brand/{Slug?}",
+    defaults: new {controller="Brand",action="Index"});
+
+//map này của FE: những map route mới ta phải viết trên route mặc định này 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

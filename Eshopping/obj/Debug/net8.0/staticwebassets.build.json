@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tuJeWJ20e6WDJrP94vtr0HZl2RkZgn9btCZNRg9V0uY=",
+  "Hash": "BNlFKN8Yy0YLB914gKMqTPIpwuGCDdKNjdBLzEB4F/g=",
   "Source": "Eshopping",
   "BasePath": "_content/Eshopping",
   "Mode": "Default",
@@ -2694,6 +2694,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\products\\05fad332-6799-4f1a-bc45-60ad92a4350d_4def84fc769ad3c48a8b.jpg"
+    },
+    {
+      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\1859798e-3b90-42de-8f1f-d771624d6712_1724458652531.jpg",
+      "SourceId": "Eshopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "BasePath": "_content/Eshopping",
+      "RelativePath": "media/products/1859798e-3b90-42de-8f1f-d771624d6712_1724458652531.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\1859798e-3b90-42de-8f1f-d771624d6712_1724458652531.jpg"
     },
     {
       "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\29d4e925-57d5-4f60-84a4-5c6e2c30d694_Trần Hải Đăng - 221230799.jpg",
