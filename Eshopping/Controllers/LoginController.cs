@@ -1,6 +1,9 @@
-﻿namespace Eshopping.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Eshopping.Controllers
 {
-    public class LoginController
+    public class LoginController:Controller
     {
-    }
+		
+	}
 }

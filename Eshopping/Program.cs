@@ -1,4 +1,6 @@
-﻿using Eshopping.Repository;
+﻿using Eshopping.Models;
+using Eshopping.Repository;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,9 @@ builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration["ConnectionStrings:ConnectedDb"]);
 }
 );
+//
+
+//
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 //dki session:
@@ -19,13 +24,49 @@ builder.Services.AddSession(option =>
     option.Cookie.IsEssential = true;
 }
 );
+//đki chức năng đăng nhập đăng kí trang web asp:
+//builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+	//.AddEntityFrameworkStores<DbContext>().AddDefaultTokenProviders();
+	//thừa
+builder.Services.AddAuthentication();
+builder.Services.Configure<IdentityOptions>(options =>
+{
+	// Password settings:yêu cầu mk khi đăng nhập :mk phải chứa số, chữ thường, ký tự đặc biệt ...
+	options.Password.RequireDigit = true;  //ycau số
+	options.Password.RequireLowercase = true; //ycau chữ thường 
+	options.Password.RequireNonAlphanumeric = false; //ycau ký tự đặc biệt 
+	options.Password.RequireUppercase = false;
+	options.Password.RequiredLength = 4; //ycau độ dài tối thiểu = 4 ký tự 
+
+	// Lockout settings.
+	options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);  //khóa tk sau 5'
+	options.Lockout.MaxFailedAccessAttempts = 5;  //số lần truy cập tối đa là 5 lần, hết 5 lần sẽ khóa 
+	options.Lockout.AllowedForNewUsers = true;  //cho phép ng dùng mới
+
+	// User settings:chỉ cho phép mk chứa các ký tự dưới dây 
+	options.User.AllowedUserNameCharacters ="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+	options.User.RequireUniqueEmail = true;
+});
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+	// Cookie settings
+	options.Cookie.HttpOnly = true;
+	options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
+
+	options.LoginPath = "/Identity/Account/Login";
+	options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+	options.SlidingExpiration = true;
+});
 
 var app = builder.Build();
 
 //đường dẫn đễn trang 404 notfound : khi lỗi thường chrome sẽ hiển thị 1 trang mặc định, ta muốn khi lỗi nó sẽ đi đến trang báo lỗi do tra custom 
 app.UseStatusCodePagesWithRedirects("/Home/Error?statuscode={0}");
+//app.UseHttpsRedirection();  //THEO giao thức trang web (đg link đến trang web) 
 
 app.UseSession();
+app.UseStaticFiles();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -33,13 +74,16 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+//ta khai báo quyền theo mức độ truy cập :  TỨC LÀ TRANG WEB SẼ ĐỌC FILE XÁC THỰC TRƯỚC KHI ĐỌC FILE QUYỀN NG DÙNG ...
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseStaticFiles();  //theo file
 
-app.UseRouting();
+app.UseRouting(); //theo đg dẫn thư mục 
 
-app.UseAuthorization();
+app.UseAuthentication();  //theo xác thực identity 
+
+app.UseAuthorization(); //theo quyền ng dùng 
+
 //Đki map này cho backend: ten map là areas, mặc định "controller=Product"
 //ta sẽ để trang backend lên trên: do mặc định nó chạy frontend đầu tiên , mà ta muốn backend chạy trc 
 app.MapControllerRoute(
