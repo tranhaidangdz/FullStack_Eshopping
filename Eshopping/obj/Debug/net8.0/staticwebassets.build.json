@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oGbsEBlQKap0AiYvVW5jXhqS4m5NPAONXAKBBkXEoig=",
+  "Hash": "LIUqUxw/P5ewMdNCiDVMprASyn/5Iivbc3hhawb+v9A=",
   "Source": "Eshopping",
   "BasePath": "_content/Eshopping",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Eshopping\\wwwroot",
       "Source": "Eshopping",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Eshopping.styles.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Eshopping.styles.css",
       "SourceId": "Eshopping",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "Eshopping.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Eshopping.styles.css"
+      "OriginalItemSpec": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Eshopping.styles.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Eshopping.bundle.scp.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Eshopping.bundle.scp.css",
       "SourceId": "Eshopping",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "Eshopping.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Eshopping.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Eshopping.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\backend\\images\\download.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\backend\\images\\download.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "backend/images/download.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\backend\\images\\download.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\backend\\js\\site.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\backend\\js\\site.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "backend/js/site.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\css\\animate.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\css\\animate.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "css/animate.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\animate.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\css\\font-awesome.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\css\\font-awesome.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "css/font-awesome.min.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\css\\main.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\css\\main.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "css/main.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\css\\prettyPhoto.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\css\\prettyPhoto.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "css/prettyPhoto.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\prettyPhoto.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\css\\price-range.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\css\\price-range.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "css/price-range.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\price-range.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\css\\responsive.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\css\\responsive.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "css/responsive.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\responsive.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\favicon.ico",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\fonts\\FontAwesome.otf",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\fonts\\FontAwesome.otf",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\404\\404.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\404\\404.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/404/404.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\404\\404.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\blog\\blog-one.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\blog\\blog-one.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/blog/blog-one.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-one.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\blog\\blog-three.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\blog\\blog-three.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/blog/blog-three.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-three.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\blog\\blog-two.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\blog\\blog-two.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/blog/blog-two.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-two.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\blog\\man-four.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\blog\\man-four.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/blog/man-four.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\man-four.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\blog\\man-one.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\blog\\man-one.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/blog/man-one.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\man-one.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\blog\\man-three.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\blog\\man-three.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/blog/man-three.jpg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\man-three.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\blog\\man-two.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\blog\\man-two.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/blog/man-two.jpg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\man-two.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\blog\\socials.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\blog\\socials.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/blog/socials.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\socials.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\cart\\one.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\cart\\one.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/cart/one.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cart\\one.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\cart\\three.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\cart\\three.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/cart/three.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cart\\three.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\cart\\two.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\cart\\two.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/cart/two.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cart\\two.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\bg_border.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\bg_border.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/bg_border.png",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\bg_border.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\gallery1.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\gallery1.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/gallery1.jpg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\gallery1.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\gallery2.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\gallery2.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/gallery2.jpg",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\gallery2.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\gallery3.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\gallery3.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/gallery3.jpg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\gallery3.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\gallery4.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\gallery4.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/gallery4.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\gallery4.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\girl1.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\girl1.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/girl1.jpg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\girl1.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\girl2.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\girl2.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/girl2.jpg",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\girl2.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\girl3.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\girl3.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/girl3.jpg",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\girl3.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\iframe1.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\iframe1.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/iframe1.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\iframe1.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\iframe2.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\iframe2.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/iframe2.png",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\iframe2.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\iframe3.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\iframe3.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/iframe3.png",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\iframe3.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\iframe4.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\iframe4.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/iframe4.png",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\iframe4.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\logo.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\logo.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/logo.png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\logo.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\map.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\map.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/map.png",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\map.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\new.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\new.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/new.png",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\new.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\partner1.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\partner1.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/partner1.png",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\partner1.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\partner2.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\partner2.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/partner2.png",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\partner2.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\partner3.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\partner3.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/partner3.png",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\partner3.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\partner4.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\partner4.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/partner4.png",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\partner4.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\pricing.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\pricing.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/pricing.png",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\pricing.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\product1.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\product1.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/product1.jpg",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\product1.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\product2.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\product2.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/product2.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\product2.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\product3.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\product3.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/product3.jpg",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\product3.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\product4.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\product4.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/product4.jpg",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\product4.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\product5.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\product5.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/product5.jpg",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\product5.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\product6.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\product6.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/product6.jpg",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\product6.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\recommend1.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\recommend1.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/recommend1.jpg",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\recommend1.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\recommend2.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\recommend2.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/recommend2.jpg",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\recommend2.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\recommend3.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\recommend3.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/recommend3.jpg",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\recommend3.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\sale.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\sale.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/sale.png",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\sale.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\searchicon.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\searchicon.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/searchicon.png",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\searchicon.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\home\\shipping.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\home\\shipping.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/home/shipping.jpg",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\shipping.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\product-details\\1.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\product-details\\1.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/product-details/1.jpg",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-details\\1.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\product-details\\new.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\product-details\\new.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/product-details/new.jpg",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-details\\new.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\product-details\\rating.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\product-details\\rating.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/product-details/rating.png",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-details\\rating.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\product-details\\share.png",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\product-details\\share.png",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/product-details/share.png",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-details\\share.png"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\product-details\\similar1.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\product-details\\similar1.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/product-details/similar1.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-details\\similar1.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\product-details\\similar2.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\product-details\\similar2.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/product-details/similar2.jpg",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-details\\similar2.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\product-details\\similar3.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\product-details\\similar3.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/product-details/similar3.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-details\\similar3.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\shop\\advertisement.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\shop\\advertisement.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/shop/advertisement.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\advertisement.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\shop\\product10.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\shop\\product10.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/shop/product10.jpg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\product10.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\shop\\product11.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\shop\\product11.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/shop/product11.jpg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\product11.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\shop\\product12.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\shop\\product12.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/shop/product12.jpg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\product12.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\shop\\product7.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\shop\\product7.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/shop/product7.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\product7.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\shop\\product8.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\shop\\product8.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/shop/product8.jpg",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\product8.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\images\\shop\\product9.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\images\\shop\\product9.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "images/shop/product9.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\product9.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\js\\contact.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\js\\contact.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "js/contact.js",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\js\\contact.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\js\\gmaps.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\js\\gmaps.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "js/gmaps.js",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\js\\gmaps.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\js\\html5shiv.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\js\\html5shiv.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "js/html5shiv.js",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\js\\html5shiv.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\js\\jquery.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\js\\jquery.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "js/jquery.js",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\js\\jquery.prettyPhoto.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\js\\jquery.prettyPhoto.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "js/jquery.prettyPhoto.js",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.prettyPhoto.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\js\\jquery.scrollUp.min.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "js/jquery.scrollUp.min.js",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.scrollUp.min.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\js\\main.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\js\\main.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\js\\price-range.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\js\\price-range.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "js/price-range.js",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\js\\price-range.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\05fad332-6799-4f1a-bc45-60ad92a4350d_4def84fc769ad3c48a8b.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\products\\05fad332-6799-4f1a-bc45-60ad92a4350d_4def84fc769ad3c48a8b.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "media/products/05fad332-6799-4f1a-bc45-60ad92a4350d_4def84fc769ad3c48a8b.jpg",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\media\\products\\05fad332-6799-4f1a-bc45-60ad92a4350d_4def84fc769ad3c48a8b.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\1859798e-3b90-42de-8f1f-d771624d6712_1724458652531.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\products\\1859798e-3b90-42de-8f1f-d771624d6712_1724458652531.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "media/products/1859798e-3b90-42de-8f1f-d771624d6712_1724458652531.jpg",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\media\\products\\1859798e-3b90-42de-8f1f-d771624d6712_1724458652531.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\29d4e925-57d5-4f60-84a4-5c6e2c30d694_Trần Hải Đăng - 221230799.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\products\\29d4e925-57d5-4f60-84a4-5c6e2c30d694_Trần Hải Đăng - 221230799.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "media/products/29d4e925-57d5-4f60-84a4-5c6e2c30d694_Trần Hải Đăng - 221230799.jpg",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\media\\products\\29d4e925-57d5-4f60-84a4-5c6e2c30d694_Trần Hải Đăng - 221230799.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\products\\60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "media/products/60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\media\\products\\60fbb81c-0c17-4141-879a-6dc465d150f3_gallery3.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\8c5eea52-d0eb-4c92-b1e7-e353eca2e827_77b6290361c9b797eed8.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\products\\8c5eea52-d0eb-4c92-b1e7-e353eca2e827_77b6290361c9b797eed8.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "media/products/8c5eea52-d0eb-4c92-b1e7-e353eca2e827_77b6290361c9b797eed8.jpg",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\media\\products\\8c5eea52-d0eb-4c92-b1e7-e353eca2e827_77b6290361c9b797eed8.jpg"
     },
     {
-      "Identity": "D:\\Eshopping\\Eshopping\\wwwroot\\media\\products\\ec665e9d-2956-45f2-8394-f9dd4c37100d_0c20525f1640b21eeb51.jpg",
+      "Identity": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\products\\ec665e9d-2956-45f2-8394-f9dd4c37100d_0c20525f1640b21eeb51.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Eshopping\\Eshopping\\wwwroot\\",
+      "ContentRoot": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
       "BasePath": "_content/Eshopping",
       "RelativePath": "media/products/ec665e9d-2956-45f2-8394-f9dd4c37100d_0c20525f1640b21eeb51.jpg",
       "AssetKind": "All",

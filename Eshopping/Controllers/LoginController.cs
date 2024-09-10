@@ -2,8 +2,7 @@
 
 namespace Eshopping.Controllers
 {
-    public class LoginController:Controller
+    public class LoginController : Controller
     {
-		
 	}
 }

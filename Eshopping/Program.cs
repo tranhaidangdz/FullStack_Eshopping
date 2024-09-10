@@ -25,8 +25,9 @@ builder.Services.AddSession(option =>
 }
 );
 //đki chức năng đăng nhập đăng kí trang web asp:
-//builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-	//.AddEntityFrameworkStores<DbContext>().AddDefaultTokenProviders();
+builder.Services.AddDbContext<DbContext>();
+builder.Services.AddIdentity<AppUserModel, IdentityRole>()
+	.AddEntityFrameworkStores<DbContext>().AddDefaultTokenProviders();
 	//thừa
 builder.Services.AddAuthentication();
 builder.Services.Configure<IdentityOptions>(options =>
@@ -58,6 +59,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 	options.AccessDeniedPath = "/Identity/Account/AccessDenied";
 	options.SlidingExpiration = true;
 });
+
 
 var app = builder.Build();
 
