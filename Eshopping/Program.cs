@@ -25,10 +25,11 @@ builder.Services.AddSession(option =>
 }
 );
 //đki chức năng đăng nhập đăng kí trang web asp:
-builder.Services.AddDbContext<DbContext>();
+//builder.Services.AddDbContext<DbContext>();
+
 builder.Services.AddIdentity<AppUserModel, IdentityRole>()
-	.AddEntityFrameworkStores<DbContext>().AddDefaultTokenProviders();
-	//thừa
+	.AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders();
+//thừa
 builder.Services.AddAuthentication();
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -69,7 +70,7 @@ app.UseStatusCodePagesWithRedirects("/Home/Error?statuscode={0}");
 
 app.UseSession();
 app.UseStaticFiles();
-// Configure the HTTP request pipeline.
+//Cấu hình request pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

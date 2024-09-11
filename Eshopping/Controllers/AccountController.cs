@@ -29,6 +29,7 @@ namespace Eshopping.Controllers
 		}
 
 		[HttpPost]
+		
 		public async Task<IActionResult> Create(UserModel user)
 		{
 			if (ModelState.IsValid)
@@ -37,7 +38,7 @@ namespace Eshopping.Controllers
 				IdentityResult result = await _userManage.CreateAsync(newUser);
 				if(result.Succeeded)
 				{
-					return Redirect("/admin/products");
+					return Redirect("/admin/products");  //hoặc NẾU ĐĂNG NHẬP THÀNH CÔNG TRẢ VỀ TRANG CHỦ :"/views/home/index.cshtml"
 				}
 				foreach (IdentityError error in result.Errors)
 				{
