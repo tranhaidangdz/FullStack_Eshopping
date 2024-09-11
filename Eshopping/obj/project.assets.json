@@ -4325,19 +4325,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tranh\\.nuget\\packages\\": {}
+    "C:\\Users\\vt383\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Eshopping\\Eshopping\\Eshopping.csproj",
+      "projectUniqueName": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\Eshopping.csproj",
       "projectName": "Eshopping",
-      "projectPath": "D:\\Eshopping\\Eshopping\\Eshopping.csproj",
-      "packagesPath": "C:\\Users\\tranh\\.nuget\\packages\\",
-      "outputPath": "D:\\Eshopping\\Eshopping\\obj\\",
+      "projectPath": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\Eshopping.csproj",
+      "packagesPath": "C:\\Users\\vt383\\.nuget\\packages\\",
+      "outputPath": "D:\\Learn\\ASP .Net\\FullStack_Eshopping\\Eshopping\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tranh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vt383\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

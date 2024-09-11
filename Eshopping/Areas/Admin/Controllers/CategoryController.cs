@@ -1,5 +1,6 @@
 ﻿using Eshopping.Models;
 using Eshopping.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -8,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Eshopping.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-
+	[Authorize]
 	public class CategoryController:Controller
 	{
 		

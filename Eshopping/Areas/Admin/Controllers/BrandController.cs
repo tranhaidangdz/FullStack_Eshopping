@@ -1,5 +1,6 @@
 ﻿using Eshopping.Models;
 using Eshopping.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,7 +8,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Eshopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class BrandController : Controller
+	[Authorize]
+	public class BrandController : Controller
     {
         private readonly DataContext _dataContext;
         public BrandController(DataContext context)

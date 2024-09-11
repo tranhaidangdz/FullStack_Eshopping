@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Eshopping.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-
+	[Authorize]
 	public class ProductController:Controller
 	{
 		private readonly DataContext _dataContext;
