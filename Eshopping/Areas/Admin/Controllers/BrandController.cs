@@ -8,7 +8,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Eshopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
-	[Authorize]
+	[Authorize("Admin/Brand")]
+    [Authorize(Roles ="Publisher,Author,Admin")]
 	public class BrandController : Controller
     {
         private readonly DataContext _dataContext;
