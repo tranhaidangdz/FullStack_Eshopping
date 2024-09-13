@@ -34,8 +34,27 @@ namespace Eshopping.Areas.Admin.Controllers
             ViewBag.Roles = new SelectList(roles, "Id", "Name");
             return View(new AppUserModel());
         }
+        [HttpGet]
+        [Route("Edit")]
+        public async Task<IActionResult> Edit(string id)  //lấy id của user đó để thực hiện eidt 
+        {
+            //ktra nếu id của user đó ko có => trả về trang 404 not fond
+            if (string.IsNullOrEmpty(id))
+            {
+                return NotFound();
+            }
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
 
+            var roles = await _roleManager.Roles.ToListAsync();
+            ViewBag.Roles = new SelectList(roles, "Id", "Name");
+            return View(user);
+        }
 
+        //tao user 
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("Create")]
@@ -76,7 +95,7 @@ namespace Eshopping.Areas.Admin.Controllers
             ViewBag.Roles = new SelectList(roles, "Id", "Name");
             return View(user);
         }
-
+        //xoa user 
 
         [HttpGet]
         [Route("Delete")]
