@@ -34,6 +34,7 @@ namespace Eshopping.Areas.Admin.Controllers
             ViewBag.Roles = new SelectList(roles, "Id", "Name");
             return View(new AppUserModel());
         }
+        //khi ta ấn nút edit, nó sẽ trả về thông tin ban đầu của user đó(thông qua id): chính là hàm này 
         [HttpGet]
         [Route("Edit")]
         public async Task<IActionResult> Edit(string id)  //lấy id của user đó để thực hiện eidt 
@@ -121,5 +122,56 @@ namespace Eshopping.Areas.Admin.Controllers
             TempData["success"] = "User đã xóa thành công ";
             return RedirectToAction("Index");
         }
+        //edit user:khi ta nhấn nút update thông tin mới 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("Edit")]
+        public async Task<IActionResult> Edit(string id, AppUserModel user)
+        {
+            var existingUser = await _userManager.FindByIdAsync(id);  //lấy ra user dựa vào id 
+            if (existingUser == null)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)  //nếu tất cả các dòng dữu liệu trả về từ user đó  ok hết => ta bắt đầu chỉnh sửa 
+            {
+                // Update other user properties (excluding password):thay the du lieu cu=du lieu ta nhap vao 
+                existingUser.UserName = user.UserName;
+                existingUser.Email = user.Email;
+                existingUser.PhoneNumber = user.PhoneNumber;
+                existingUser.RoleId = user.RoleId;
+                var updateUserResult = await _userManager.UpdateAsync(existingUser);
+                if (updateUserResult.Succeeded)
+                {
+                    return RedirectToAction("Index", "User");
+                }
+                else
+                {
+                    AddIdentityErrors(updateUserResult);
+                    return View(existingUser);
+                }
+            }
+            var roles = await _roleManager.Roles.ToListAsync();
+            ViewBag.Roles = new SelectList(roles, "Id", "Name");
+
+          TempData["error"] = "Model có 1 vài thứ đang bị lỗi";
+          var errors=ModelState.Values.SelectMany(v=>v.Errors.Select(e=>e.ErrorMessage)).ToList();
+
+            string errorMessage = string.Join("\n", errors);
+            return View(existingUser);
+        }
+        private void AddIdentityErrors(IdentityResult identityResult)
+        {
+            foreach (var error in identityResult.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+        }
+
     }
+
+  
+    
 }
+

@@ -22,7 +22,8 @@
         {
             <tr>
                 @* hiển thị sp từ csdl dưới dạng 1 bảng: sau này khi chèn thêm các sp vào csdl nó sẽ in ra thông  tin ở đây  *@
-                <th scope="row">@user.UserName</th>
+                <td>@user.Id</td>
+                <td>@user.UserName</td>
                 <td>@user.Email</td>
 
                 @* Phương thức Html.Raw() sẽ render thô nội dung HTML thay vì escape các ký tự đặc biệt *@
