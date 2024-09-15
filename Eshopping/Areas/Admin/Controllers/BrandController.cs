@@ -8,26 +8,31 @@ using Microsoft.EntityFrameworkCore;
 namespace Eshopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
-	//[Authorize]
+    [Route("Admin/Brand")]
+    //[Authorize]
     //[Authorize(Roles ="Publisher,Author,Admin")]
-	public class BrandController : Controller
+    public class BrandController : Controller
     {
         private readonly DataContext _dataContext;
         public BrandController(DataContext context)
         {
             _dataContext = context;
         }
-
+        [HttpGet]
+        [Route("Index")]
         public async Task<IActionResult> Index()
         {
             return View(await _dataContext.Brands.OrderByDescending(p => p.Id).ToListAsync());
         }
+        [HttpGet]
+        [Route("Edit")]
         public async Task<IActionResult> Edit(int Id)
         {
             BrandModel brand= await _dataContext.Brands.FindAsync(Id);
             return View(brand);
         }
-
+        [HttpGet]
+        [Route("Create")]
         public async Task<IActionResult> Create()
         {
             return View();
@@ -35,6 +40,7 @@ namespace Eshopping.Areas.Admin.Controllers
         //form create thuong hieu:
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Create")]
         public async Task<IActionResult> Create(BrandModel brand)  //lấy ds và thương hiệu của form (nhận từ ng dùng ) sau đó so sánh với các sp đã có trong csdl 
         {
 
@@ -75,6 +81,8 @@ namespace Eshopping.Areas.Admin.Controllers
         }
 
         //DELETE:
+        [HttpGet]
+        [Route("Delete")]
         public async Task<IActionResult> Delete(int Id)
         {
             BrandModel brand = await _dataContext.Brands.FindAsync(Id);
@@ -89,6 +97,7 @@ namespace Eshopping.Areas.Admin.Controllers
         //EDIT brand =============================================================================
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Edit")]
         public async Task<IActionResult> Edit(BrandModel brand)  //lấy ds và thương hiệu của form (nhận từ ng dùng ) sau đó so sánh với các sp đã có trong csdl 
         {
 
