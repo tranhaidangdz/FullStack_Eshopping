@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Eshopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
-	[Authorize("Admin/Brand")]
-    [Authorize(Roles ="Publisher,Author,Admin")]
+	//[Authorize]
+    //[Authorize(Roles ="Publisher,Author,Admin")]
 	public class BrandController : Controller
     {
         private readonly DataContext _dataContext;
@@ -24,7 +24,7 @@ namespace Eshopping.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Edit(int Id)
         {
-            BrandModel brand=await _dataContext.Brands.FindAsync(Id);
+            BrandModel brand= await _dataContext.Brands.FindAsync(Id);
             return View(brand);
         }
 
