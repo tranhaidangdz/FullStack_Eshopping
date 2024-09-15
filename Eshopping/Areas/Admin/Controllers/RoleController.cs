@@ -9,7 +9,7 @@ namespace Eshopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/Role")]
-    [Authorize(Roles ="Admin")]
+    //[Authorize(Roles ="Admin")]
     public class RoleController : Controller
     {
         private readonly DataContext _dataContext;
@@ -48,8 +48,8 @@ namespace Eshopping.Areas.Admin.Controllers
         
         //edit:
         [HttpPost]
-        [Route("Edit")]
         [ValidateAntiForgeryToken]
+        [Route("Edit")]
         public async Task<IActionResult> Edit(string id, IdentityRole model)
         {
             if (string.IsNullOrEmpty(id))
@@ -79,9 +79,9 @@ namespace Eshopping.Areas.Admin.Controllers
             // nếu model ko tồn tại or idenntityrole ko tồn tại=> trả về view với id của role hiện tại 
             return View(model ?? new IdentityRole { Id=id});
         }
-        [Route("Create")]
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Create")]
         public async Task<IActionResult> Create(IdentityRole model)
         {
             //avoid duplicate role:nếu cái role chưa tồn tại thì ta tao role mới 
