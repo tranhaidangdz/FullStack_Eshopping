@@ -83,9 +83,9 @@ app.UseStaticFiles();  //theo file
 
 app.UseRouting(); //theo đg dẫn thư mục 
 
-app.UseAuthentication();  //theo xác thực identity 
+app.UseAuthentication();  //theo xác thực identity (đăng nhập)
 
-app.UseAuthorization(); //theo quyền ng dùng 
+app.UseAuthorization(); //theo quyền ng dùng  (trao quyền)
 
 //Đki map này cho backend: ten map là areas, mặc định "controller=Product"
 //ta sẽ để trang backend lên trên: do mặc định nó chạy frontend đầu tiên , mà ta muốn backend chạy trc 

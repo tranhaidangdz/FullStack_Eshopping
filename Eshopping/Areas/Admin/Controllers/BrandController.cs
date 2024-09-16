@@ -9,8 +9,7 @@ namespace Eshopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/Brand")]
-    //[Authorize]
-    //[Authorize(Roles ="Publisher,Author,Admin")]
+    //[Authorize(Roles = "Admin")] phân quyền truy cập manage branch 
     public class BrandController : Controller
     {
         private readonly DataContext _dataContext;
