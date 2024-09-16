@@ -1,7 +1,18 @@
 ﻿@model IEnumerable<CategoryModel>
 @{
     ViewData["title"] = "Category Listed";
+    Paginate pager = new Paginate();
+
+    int pageNo = 0; // So tran dau tien = 0
+
+    if (ViewBag.Pager != null) // Đang co trang
+    {
+        pager = ViewBag.Pager;
+
+        pageNo = pager.CurrentPage;
+    }
 }
+
 <h4>List Category </h4>
 @* thêm sửa xóa sp: *@
 <a class="btn btn-warning btn-sm" asp-action="Create" asp-controller="Category">Add Category</a>
@@ -49,3 +60,4 @@
         }
     </tbody>
 </table>
+<partial name="_paging" model="@pager"></partial>

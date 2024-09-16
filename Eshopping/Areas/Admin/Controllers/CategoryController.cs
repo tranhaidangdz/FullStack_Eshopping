@@ -18,9 +18,34 @@ namespace Eshopping.Areas.Admin.Controllers
 		{
 			_dataContext = context;
 		}
-		public async Task<IActionResult> Index()
+		public async Task<IActionResult> Index(int pg = 1)
 		{
-			return View(await _dataContext.Categories.OrderByDescending(P => P.Id).ToListAsync());
+            List<CategoryModel> category = _dataContext.Categories.ToList(); // 33 datas
+
+            const int pageSize = 10; // 10 items/ 1 trang
+
+            if (pg < 1)
+            {
+                pg = 1;
+            }
+
+            int recsCount = category.Count(); // 33 items
+
+            var pager = new Paginate(recsCount, pg, pageSize);
+
+            int recSkip = (pg - 1) * pageSize; // (1-1) * 10
+
+            /*
+             trang 1:  category.Skip(0).Take(10).ToList(); lấy item từ  0 -> 9
+             trang 2:  category.Skip(10).Take(10).ToList(); lấy item từ 10 -> 19
+             */
+
+
+            var data = category.Skip(recSkip).Take(pager.PageSize).ToList();
+
+            ViewBag.Pager = pager; // truyền pager qua trang index thông qua viewbag
+
+            return View(data);
 
 		}
         
