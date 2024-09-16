@@ -4,16 +4,17 @@
 }
 <h4>List User </h4>
 @* thêm sửa xóa sp: *@
-<a asp-action="Create" asp-controller="User">Add User</a>
+<a class="btn btn-warning btn-sm" asp-action="Create" asp-controller="User">Add User</a>
 <table class="table">
     <thead>
         <tr>
             <th scope="col">Id</th>
             <th scope="col">Name</th>
+            <th scope="col">Email</th>
             <th scope="col">PasswordHash</th>
 
             <th scope="col">Phone</th>
-            <th scope="col">Role</th>
+            <th scope="col">RoleId</th>
 
         </tr>
     </thead>
@@ -30,6 +31,8 @@
                 <td>@user.PasswordHash</td>
 
                 <td>@user.PhoneNumber</td>
+                <td>@user.RoleId</td>
+
                 <td></td>
 
                 <td>
