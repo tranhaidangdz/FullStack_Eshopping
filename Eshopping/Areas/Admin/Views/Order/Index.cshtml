@@ -7,7 +7,7 @@
 <table class="table">
     <thead>
         <tr>
-            <th scope="col">#</th>
+            <th scope="col">STT</th>
             <th scope="col">Order Code</th>
             <th scope="col">Username</th>
             <th scope="col">Order Date</th>
@@ -19,7 +19,7 @@
         @foreach (var item in Model)
         {
             <tr>
-                <th>#</th>
+                <th>&bull;</th>
                 @* hiển thị sp từ csdl dưới dạng 1 bảng: sau này khi chèn thêm các sp vào csdl nó sẽ in ra thông  tin ở đây  *@
                 <th scope="row">@item.OrderCode</th>
                 <td>@item.UserName</td>

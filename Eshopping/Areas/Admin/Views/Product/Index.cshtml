@@ -1,6 +1,16 @@
 ﻿@model IEnumerable<ProductModel>
 @{
 	ViewData["title"] = "Product Listed";
+	Paginate pager = new Paginate();
+
+	int pageNo = 0; // So tran dau tien = 0
+
+	if (ViewBag.Pager != null) // Đang co trang
+	{
+		pager = ViewBag.Pager;
+
+		pageNo = pager.CurrentPage;
+	}
 }
 <h4>List Product </h4>
 @* thêm sửa xóa sp: *@
@@ -45,3 +55,4 @@
 		}
 	</tbody>
 </table>
+<partial name="_paging" model="@pager"></partial>

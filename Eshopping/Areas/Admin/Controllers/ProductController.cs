@@ -22,34 +22,34 @@ namespace Eshopping.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Index(int pg = 1)
         {
-            //List<ProductModel> product =  _dataContext.Products.ToList(); // 33 datas
+            List<ProductModel> product = _dataContext.Products.OrderBy(P => P.Id).Include(p => p.Category).Include(p => p.Brand).ToList(); // 33 datas
 
-            //const int pageSize = 10; // 10 items/ 1 trang
+            const int pageSize = 10; // 10 items/ 1 trang
 
-            //if (pg < 1)
-            //{
-            //    pg = 1;
-            //}
+            if (pg < 1)
+            {
+                pg = 1;
+            }
 
-            //int recsCount = product.Count(); // 33 items
-            ////Console.WriteLine(recsCount);
+            int recsCount = product.Count(); // 33 items
+            //Console.WriteLine(recsCount);
 
-            //var pager = new Paginate(recsCount, pg, pageSize);
+            var pager = new Paginate(recsCount, pg, pageSize);
 
-            //int recSkip = (pg - 1) * pageSize; // (1-1) * 10
+            int recSkip = (pg - 1) * pageSize; // (1-1) * 10
 
-            ///*
-            // trang 1:  category.Skip(0).Take(10).ToList(); lấy item từ  0 -> 9
-            // trang 2:  category.Skip(10).Take(10).ToList(); lấy item từ 10 -> 19
-            // */
+            /*
+             trang 1:  category.Skip(0).Take(10).ToList(); lấy item từ  0 -> 9
+             trang 2:  category.Skip(10).Take(10).ToList(); lấy item từ 10 -> 19
+             */
 
 
-            //var data = product.Skip(recSkip).Take(pager.PageSize).ToList();
+            var data = product.Skip(recSkip).Take(pager.PageSize).ToList();
 
-            //ViewBag.Pager = pager; // truyền pager qua trang index thông qua viewbag
+            ViewBag.Pager = pager; // truyền pager qua trang index thông qua viewbag
 
-            //return View(data);
-            return View(await _dataContext.Products.OrderByDescending(P => P.Id).Include(p => p.Category).Include(p => p.Brand).ToListAsync());
+            return View(data);
+            //return View(await _dataContext.Products.OrderByDescending(P => P.Id).Include(p => p.Category).Include(p => p.Brand).ToListAsync());
         }
         [HttpGet]
         public IActionResult Create()  //lấy ra ds danh mục và thương hiệu sp
