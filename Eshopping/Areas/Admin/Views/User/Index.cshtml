@@ -31,8 +31,8 @@
                 <td>@usersWithRoles.User.PasswordHash</td>
 
                 <td>@usersWithRoles.User.PhoneNumber</td>
-                <td>@usersWithRoles.RoleName</td>
-
+                 @* <td>@usersWithRoles.RoleName</td> *@
+                 <td>@usersWithRoles.User.RoleId</td>
                 <td>
                     @* chỉnh sửa or xóa sp trong admin nó sẽ dựa vào id của sp đó, từ id đó trả  về thông tin sp *@
                     <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="User" asp-route-Id="@usersWithRoles.User.Id">Edit</a>

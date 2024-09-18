@@ -9,6 +9,7 @@
     <form asp-action="Edit" enctype="multipart/form-data">
         @* nó sẽ lấy id gửi qua edit trong usercontroller  *@
         <input type="hidden" asp-for="Id" />
+
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
         <div class="form-group">

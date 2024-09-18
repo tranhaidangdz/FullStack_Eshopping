@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\FullStack_Eshopping\\Eshopping\\Eshopping.csproj",
         "projectName": "Eshopping",
         "projectPath": "D:\\FullStack_Eshopping\\Eshopping\\Eshopping.csproj",
-        "packagesPath": "C:\\Users\\vt383\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\tranh\\.nuget\\packages\\",
         "outputPath": "D:\\FullStack_Eshopping\\Eshopping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vt383\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tranh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
