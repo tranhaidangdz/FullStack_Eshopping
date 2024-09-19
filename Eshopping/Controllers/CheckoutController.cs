@@ -56,9 +56,9 @@ namespace Eshopping.Controllers
 
 				HttpContext.Session.Remove("Cart");
 				//sau khi đặt hàng và bấm checkout , ta sẽ xóa đi đơn hàng đã đặt và gửi mail cho khách hàng bằng cái email trandang ở file Emailseder 
-				var receiver = "trandang211@gmail.com";  //email nhận
+				var receiver = userEmail;  //email nhận, nó đc gửi đi từ email trandang211, sau này ta sẽ thay email nhận này = email ng dùng nhập vào 
 				var subject = "Đặt hàng thành công";  //tiêu đề
-				var message = "Đặt hàng thành công, trải nghiệm dịch vụ nhé ";  //ND thông báo 
+				var message = "Đặt hàng thành công, trải nghiệm dịch vụ nhé ";  //ND thông báo khi chạy ctrinh, nó gửi mail với ND này cho ng đã mua hàng 
 
 				await _emailSender.SendEmailAsync(receiver, subject, message);
 

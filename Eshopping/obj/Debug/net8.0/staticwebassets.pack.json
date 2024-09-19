@@ -561,6 +561,18 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\HOILAMWEB.jpg",
+      "PackagePath": "staticwebassets\\media\\HOILAMWEB.jpg"
+    },
+    {
+      "Id": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\Rick-Roll-Sound-Effect.mp3",
+      "PackagePath": "staticwebassets\\media\\Rick-Roll-Sound-Effect.mp3"
+    },
+    {
+      "Id": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\nyan-cat.gif",
+      "PackagePath": "staticwebassets\\media\\nyan-cat.gif"
+    },
+    {
       "Id": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\products\\3636fc27-239d-423c-a5db-b5afd6ec0b5f_4def84fc769ad3c48a8b.jpg",
       "PackagePath": "staticwebassets\\media\\products\\3636fc27-239d-423c-a5db-b5afd6ec0b5f_4def84fc769ad3c48a8b.jpg"
     },

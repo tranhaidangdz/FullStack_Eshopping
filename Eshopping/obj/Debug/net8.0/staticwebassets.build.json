@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NRii5fqZCqwBzC9HLpNkbYFuHLoXclTb/4hpdyPhtow=",
+  "Hash": "xrCHU2USnRk2N2vWBcBSBjUeFt0l0LOjmfWyTk614rM=",
   "Source": "Eshopping",
   "BasePath": "_content/Eshopping",
   "Mode": "Default",
@@ -2696,6 +2696,44 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\HOILAMWEB.jpg",
+      "SourceId": "Eshopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
+      "BasePath": "_content/Eshopping",
+      "RelativePath": "media/HOILAMWEB.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\HOILAMWEB.jpg"
+    },
+    {
+      "Identity": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\nyan-cat.gif",
+      "SourceId": "Eshopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
+      "BasePath": "_content/Eshopping",
+      "RelativePath": "media/nyan-cat.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\nyan-cat.gif"
+    },
+    {
       "Identity": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\products\\3636fc27-239d-423c-a5db-b5afd6ec0b5f_4def84fc769ad3c48a8b.jpg",
       "SourceId": "Eshopping",
       "SourceType": "Discovered",
@@ -2770,6 +2808,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\products\\e2949158-e93f-494a-97a9-14f80402e715_Lê Tiến Chung - 221230755.jpeg"
+    },
+    {
+      "Identity": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\media\\Rick-Roll-Sound-Effect.mp3",
+      "SourceId": "Eshopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FullStack_Eshopping\\Eshopping\\wwwroot\\",
+      "BasePath": "_content/Eshopping",
+      "RelativePath": "media/Rick-Roll-Sound-Effect.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\Rick-Roll-Sound-Effect.mp3"
     }
   ]
 }

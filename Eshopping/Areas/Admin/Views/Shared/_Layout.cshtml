@@ -7,6 +7,10 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<title>@ViewData["title"] - Admin Areas</title>
+	@* css  sweet alert: nó sẽ hiện của sổ nhỏ thông bão giữa màn hình *@
+	<link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.14.0/dist/sweetalert2.min.css
+" rel="stylesheet">
 	<link href="~/css/bootstrap.min.css" rel="stylesheet">
 	<link href="~/css/font-awesome.min.css" rel="stylesheet">
 	<link href="~/css/prettyPhoto.css" rel="stylesheet">
@@ -115,6 +119,40 @@
 	<script src="~/js/jquery.prettyPhoto.js"></script>
 	<script src="~/js/main.js"></script>
 	<script src="~/backend/js/site.js"></script>
+	@* JS cho  SWEET ALERT *@
+	<script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.14.0/dist/sweetalert2.all.min.js
+"></script>
+
+		<script>
+			//đây là hàm sweet alert ta lấy từ trang web đó 
+		$(function () {
+    var message = '@TempData["success"]';
+    if (message != '')
+        Swal.fire({
+            title: message,  // tiêu đề này lấy từ TempData
+            width: 600,
+            padding: "3em",
+            color: "#716add",
+            // ảnh nền của cửa sổ thông báo
+					background: "#fff url('https://media.giphy.com/media/xUOwGfV7UYp0E6cb1m/giphy.gif?cid=ecf05e4799wncf9rdb6y56d66lf1iqvv9b097cx0z8xgl2t0&ep=v1_gifs_search&rid=giphy.gif&ct=s')",
+            // gif để cho nó chuyển động và đặt ở góc trên bên trái: ta vào trang giphy.com để chọn gift 
+                       //cái gift này cũng hay  url("https://media.giphy.com/media/pT1e2ymv7mMOM0h2lT/giphy.gif?cid=790b761137qndtkhhfhif3l8acqj6wt95baxbsg3a3u2305w&ep=v1_gifs_search&rid=giphy.gif&ct=s")
+            backdrop: `rgba(0,0,123,0.4)
+							   url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG55YWgxbW9vNzJpeWhvODAxbTZtbWtjOXRpd3FnNDhoZG5qMGdwMyZlcD12MV9naWZzX3NlYXJjaCZjdD1z/ZE5DmCqNMr3yDXq1Zu/giphy.gif")
+                       left top
+                       no-repeat`,
+            // Thu nhỏ kích thước gif
+            customClass: {
+                popup: 'custom-swal'
+            }
+        });
+			// Phát nhạc khi SweetAlert xuất hiện
+			var audio = new Audio('/media/Rick-Roll-Sound-Effect.mp3');
+			audio.play();
+});
+
+		</script>
 	@* ta dùng await: bất đồng bộ: khi ta khởi chạy 1 dự án nó sẽ chạy các file JS ở trên trc, còn đoạn code JS của các trang sẽ chỉ chạy khi ta mở đến trang đó  *@
 	@await RenderSectionAsync("Scripts", required: false);
 </body>
