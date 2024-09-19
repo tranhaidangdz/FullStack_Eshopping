@@ -1,4 +1,5 @@
-﻿using Eshopping.Models;
+﻿using Eshopping.Areas.Admin.Repository;
+using Eshopping.Models;
 using Eshopping.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +13,8 @@ builder.Services.AddDbContext<DataContext>(options =>
 );
 //
 
-//
+// đăng ký phần gửi mail:
+builder.Services.AddTransient<IEmailSender,EmailSender>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 //dki session:

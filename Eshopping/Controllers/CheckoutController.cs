@@ -1,4 +1,5 @@
-﻿using Eshopping.Models;
+﻿using Eshopping.Areas.Admin.Repository;
+using Eshopping.Models;
 using Eshopping.Models.ViewModels;
 using Eshopping.Repository;
 using Microsoft.AspNetCore.Identity;
@@ -12,10 +13,12 @@ namespace Eshopping.Controllers
 	public class CheckoutController : Controller
 	{
 		private readonly DataContext _dataContext;
+		private readonly IEmailSender _emailSender;  //gọi đối tg này từ lớp IEmailSender để ta gửi xd phương thức gửi mail 
 
-		public CheckoutController(DataContext context)
+		public CheckoutController(IEmailSender emailSender,DataContext context)
 		{
 			_dataContext = context;
+			_emailSender = emailSender;
 		}
 
 		public async Task<IActionResult> Checkout()
@@ -52,6 +55,13 @@ namespace Eshopping.Controllers
 				}
 
 				HttpContext.Session.Remove("Cart");
+				//sau khi đặt hàng và bấm checkout , ta sẽ xóa đi đơn hàng đã đặt và gửi mail cho khách hàng bằng cái email trandang ở file Emailseder 
+				var receiver = "trandang211@gmail.com";  //email nhận
+				var subject = "Đặt hàng thành công";  //tiêu đề
+				var message = "Đặt hàng thành công, trải nghiệm dịch vụ nhé ";  //ND thông báo 
+
+				await _emailSender.SendEmailAsync(receiver, subject, message);
+
 				TempData["success"] = "Checkout thành công, vui lòng chờ đơn hàng được duyệt";
 				return View("Index", "Cart");
 
